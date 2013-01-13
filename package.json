@@ -1,0 +1,18 @@
+{
+  "name": "mortar",
+  "version": "0.0.1",
+  "dependencies": {
+    "volo-ghdeploy": "0.0.3",
+    "connect": "~2.4.4",
+    "less-middleware": "~0.1.5"
+  },
+  "amd": {},
+  "volo": {
+    "dependencies": {
+      "zepto": "github:madrobby/zepto/v0.8",
+      "jquery": "github:jquery/jquery/1.8.3",
+      "jquery.fittext": "https://raw.github.com/davatron5000/FitText.js/master/jquery.fittext.js"
+    },
+    "baseUrl": "www/js/lib"
+  }
+}

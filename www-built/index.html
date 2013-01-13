@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nettuts+ App</title>
+    <meta name="description" content="">
+    <!-- To disable zoom on smartphone-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- Font from Google Webfonts-->
+    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Title -->
+      <div id="title">
+        Nettuts+ App
+      </div>
+      <!-- Date of latest article -->
+      <div id="latest">
+      </div>
+      <!-- List of articles goes here -->
+      <ul id="list">
+      </ul>
+      <div style="clear:both;"></div>
+      <!-- Use this installation button to install locally without going
+         through the marketpace (see app.js) -->    
+      <button id="install-btn">Install now</button><br/>
+      <a href="" target="_blank">Tutorial</a> · <a href="https://www.github.com/victorbjelkholm/nettutsapp" target="_blank">Github</a> · <a href="http://www.twitter.com/VictorBjelkholm" target="_blank">@VictorBjelkholm</a>
+    </div>
+    <div id="scroller"></div>
+    <!-- Using require.js, a module system for javascript, include the
+         js files. This loads "main.js", which in turn can load other
+         files, all handled by require.js:
+         http://requirejs.org/docs/api.html#jsfiles -->
+    <script type="text/javascript"
+            data-main="js/init.js"
+            src="js/lib/require.js"></script>
+  </body>
+</html>
