@@ -1,21 +1,11 @@
-# A Blank Template for Open Web Apps
+# Example Firefox OS application
 
-The is a minimal template that has a little HTML, CSS, and js to help
-you start writing an Open Web App.
+This is a example on how an app for Firefox OS can look and behave. Visit the application in Aurora, Firefox OS emulator or on a Firefox OS phone to install.
 
-This is part of the [mortar](https://github.com/mozilla/mortar/)
-template collection for building Open Web Apps.
+To run the application:
 
-# Usage
-
-There are a few ways to get this template:
-
-* git clone git://github.com/mozilla/mortar-app-stub.git myapp
-* volo create myapp mozilla/mortar-app-stub
-
-If you have node installed, you can run a development server with volo:
-
-* cd myapp
+* git clone git@github.com:VictorBjelkholm/nettutsapp2.git
+* cd nettutsapp2
 * volo serve
 
 View the app at http://localhost:8008/.
